@@ -5,6 +5,11 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![GitHub Repo](https://img.shields.io/badge/View%20on-GitHub-black?logo=github)](https://github.com/GarvitOfficial/GMT-Music-Decoder)
 
+
+## 🚀 Live Demo
+
+**🔗 [https://gmt-music-decoder.netlify.app/](https://gmt-music-decoder.netlify.app/)**
+
 A modern web application for identifying and managing your music collection. Built with React, TypeScript, and TailwindCSS.
 
 ![Main Interface](/screenshots/main.png)
