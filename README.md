@@ -23,6 +23,29 @@ A modern web application for identifying and managing your music collection. Bui
 - **Responsive Design**: Works on desktop and mobile devices
 - **Dark/Light Mode**: Built-in theme support
 
+## 🔑 API Configuration
+
+This application uses ACRCloud's audio recognition API. To get started, you'll need to:
+
+1. Sign up for an ACRCloud account at [https://www.acrcloud.com/](https://www.acrcloud.com/)
+2. Create a new project in the ACRCloud console
+3. Get your API credentials (Host, Access Key, and Secret Key)
+4. [Read the API documentation](https://docs.acrcloud.com/reference/identification-api) for more details
+
+Update the configuration in `src/services/acrcloud.ts` with your credentials:
+
+```typescript
+const ACR_CONFIG = {
+  host: 'your-host',
+  endpoint: '/v1/identify',
+  access_key: 'your-access-key',
+  secret_key: 'your-secret-key',
+  signature_version: '1',
+  data_type: 'audio',
+  secure: true,
+}
+```
+
 ## 🛠️ Tech Stack
 
 - **Frontend**: React 18, TypeScript, Vite
