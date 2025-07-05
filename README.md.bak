@@ -1,0 +1,122 @@
+# 🎵 GMT Music Decoder
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+A cutting-edge web application for identifying songs from audio files with support for multiple formats. Built with ❤️ for hackathon enthusiasts!
+
+## 🚀 Features
+
+- **Multi-format Support**: Upload MP3, WAV, M4A, FLAC, AAC, AMR, and APE files
+- **Accurate Song Identification**: Advanced audio recognition technology
+- **Rich Metadata**: Get detailed information including title, artist, and album
+- **User-Friendly Interface**: Intuitive design for seamless user experience
+- **Fast Processing**: Quick analysis and identification of audio files
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, TailwindCSS
+- **Backend**: Node.js, Express
+- **Audio Processing**: FFmpeg, Audio Fingerprinting
+- **Database**: MongoDB (for storing user data and song metadata)
+- **Deployment**: Vercel (Frontend), Render (Backend)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- FFmpeg (for audio processing)
+- MongoDB Atlas account (or local MongoDB instance)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/GarvitOfficial/GMT-Music-Decoder.git
+   cd GMT-Music-Decoder
+   ```
+
+2. **Install dependencies**
+   ```bash
+   # Install frontend dependencies
+   cd frontend
+   npm install
+   
+   # Install backend dependencies
+   cd ../backend
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the backend directory with:
+   ```
+   PORT=5000
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+
+4. **Run the application**
+   ```bash
+   # Start backend server
+   cd backend
+   npm start
+   
+   # In a new terminal, start frontend
+   cd frontend
+   npm start
+   ```
+
+## 📸 Screenshots
+
+*(Add screenshots of your application here)*
+
+## 🎯 Hackathon Journey
+
+### Inspiration
+Music recognition has always been a fascinating technology. We wanted to create a solution that's not only accurate but also supports a wide range of audio formats to cater to all users.
+
+### Challenges We Faced
+- Implementing efficient audio fingerprinting across different formats
+- Optimizing the recognition algorithm for speed and accuracy
+- Creating a seamless user experience
+
+### Accomplishments We're Proud Of
+- Successfully integrated support for 7+ audio formats
+- Achieved high accuracy in song identification
+- Built a responsive and intuitive UI
+
+### What We Learned
+- Advanced audio processing techniques
+- Performance optimization for media processing
+- Building scalable web applications
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 👥 Team
+
+- **Garvit** - [@GarvitOfficial](https://github.com/GarvitOfficial)
+
+## 🙏 Acknowledgments
+
+- [AcoustID](https://acoustid.org/) - For the audio fingerprinting technology
+- [FFmpeg](https://ffmpeg.org/) - For audio processing
+- [Create React App](https://create-react-app.dev/) - For the React boilerplate
+
+---
+
+Made with ❤️ for the hackathon community | [MIT License](LICENSE)
